@@ -114,7 +114,7 @@ function dosukebeWave() {
 function setData(dateStr){
   //dateStr = '2023/05/02 17:00:00'
   const year = parseInt(dateStr.substring(0, 4));               //2022
-  const month = parseInt(dateStr.substring(6, 7));              //2
+  const month = parseInt(dateStr.substring(5, 7));              //2
   const day = parseInt(dateStr.substring(9, 10));                //5
   const hour = parseInt(dateStr.substring(11, 13));              //21
   const min = parseInt(dateStr.substring(17, 19));              //0
